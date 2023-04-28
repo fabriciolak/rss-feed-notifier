@@ -38,4 +38,11 @@ export class RssFeedNotify {
 
     this.list = newList
   }
+
+  info() {
+    return {
+      userAgent: this.userAgent,
+      skipFirstLoad: this.skipFirstLoad
+    }
+  }
 }

@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest'
-import { RssFeedNotify } from './Feed'
-import { IRssFeed } from './@types/Feed'
+import { RssFeedNotify } from '../src/Feed'
+import { IRssFeed } from '../src/@types/Feed'
 
 describe('Feed test', () => {
   let sut: RssFeedNotify
