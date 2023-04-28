@@ -1,6 +1,6 @@
 {
   "name": "rss-feed-notifier",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An easy-to-use RSS feed emitter for Node.js with webhook, Telegram and E-mail support. Stay up-to-date with the latest content.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -8,6 +8,7 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc --declaration",
     "test": "vitest",
+    "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish"
   },
